@@ -12,6 +12,7 @@ const student = db.define(
             primaryKey: true,
         },
         nama: DataTypes.STRING,
+        gender: DataTypes.STRING,
         tanggalLahir: DataTypes.STRING,
         foto: DataTypes.STRING,
         majorId: DataTypes.INTEGER,

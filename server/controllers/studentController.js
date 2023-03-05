@@ -34,6 +34,7 @@ const addStudent = async (req, res) => {
     try {
         await student.create({
             nama: req.body.nama,
+            gender: req.body.gender,
             tanggalLahir: req.body.tanggalLahir,
             majorId: req.body.majorId,
         });
